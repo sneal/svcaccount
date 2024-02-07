@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: svcaccount
+spec:
+  containers:
+  - name: svcaccount
+    image: localhost:32000/svcaccount:latest
